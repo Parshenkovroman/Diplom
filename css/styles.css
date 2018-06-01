@@ -1,16 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Bad+Script');
 
 .header-block{
 	text-align: center;
 	color: #efefef;
 	margin: 30px;
+	
+}
+
+.header-block>h1{
+	font-family: 'Arsenal', sans-serif;
+	font-size:4em;
+
+
+}
+
+.header-block>h2{
+font-family: 'Bad Script', cursive;
 }
 body{
-	background: url(../img/bg.jpg);
+	background: url(../img/slider/bg.jpg) no-repeat;
 }
+
+#screen-1, #screen-2, #screen-3{
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+#screen-1{
+
+}
+#screen-2{
+	background: #eaf2ff;
+}
+#screen-3{
+	background:#5e7b8e;
+	text-align: center;
+	color:#eaf6ff;
+
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+
+
+
 .navbar{
 	background: rgba(255,245,215,0.85);
 }
-
 
 }
 .main-content{

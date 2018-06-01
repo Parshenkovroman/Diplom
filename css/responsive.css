@@ -1,14 +1,35 @@
  /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { }
+@media (max-width: 575.98px) { 
+
+iframe{
+	width: 00px;
+}
+
+
+}
 
  /*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {  }
+@media (max-width: 767.98px) { 
+
+iframe{
+	width: 500px;
+}
+.item-slider-4 ,.item-slider-3 ,.item-slider-2 {
+	display: none;
+}
+ }
 
  /*Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) { 
 .navbar-brand{
 	display: block;
 	} 
+iframe{
+	width: 500px;
+}
+
+
+
 }
 
  /*Large devices (desktops, less than 1200px)*/
