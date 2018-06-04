@@ -7,12 +7,21 @@
 	
 }
 
+}
 .header-block>h1{
 	font-family: 'Arsenal', sans-serif;
 	font-size:4em;
+}
 
+.about-string{
+	text-align: center;
+	border: 1px black solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
 
 }
+
+
 
 .header-block>h2{
 font-family: 'Bad Script', cursive;
@@ -21,7 +30,7 @@ body{
 	background: url(../img/slider/bg.jpg) no-repeat;
 }
 
-#screen-1, #screen-2, #screen-3{
+#screen-1, #screen-2, #screen-3, #screen-4,#screen-5,#screen-6,#screen-7{
 	padding-top: 40px;
 	padding-bottom: 40px;
 
@@ -34,16 +43,49 @@ body{
 	background: #eaf2ff;
 }
 #screen-3{
-	background:#5e7b8e;
-	text-align: center;
-	color:#eaf6ff;
+	background-image: ;
+	background:url(../img/Map1.png) no-repeat;
+	background-size:cover;
 
-	padding-top: 200px;
-	padding-bottom: 200px;
+}
+#screen-3>.card{
+	margin: 12px;
+}
+#screen-3>.container>h3{
+
+    margin-bottom: 30px;
+
+}
+
+#screen-4{
+	
+
+
+}
+#screen-5{
+	background:#5e7b8e;
+	color:#eaf6ff;
+}
+
+#screen-5>.container>h3{
+
+    margin-bottom: 40px;
+
+}
+
+#screen-6>.container>h3{
+
+    margin-bottom: 40px;
+
 }
 
 
 
+.card-body-text>p{
+	padding: 20px;
+
+	
+}
 
 .navbar{
 	background: rgba(255,245,215,0.85);
@@ -58,7 +100,14 @@ body{
 	margin-top:20px;
 }
 
-
+.carousel-item>img{
+	height: 340px;
+	width:850px;
+}
+.about-string{
+	margin-top: 20px;
+	margin-bottom: : 20px;
+}
 /*
 
 

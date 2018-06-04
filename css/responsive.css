@@ -1,22 +1,10 @@
- /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
-
-iframe{
-	width: 00px;
-}
+ /*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
 
 
-}
 
- /*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) { 
 
-iframe{
-	width: 500px;
-}
-.item-slider-4 ,.item-slider-3 ,.item-slider-2 {
-	display: none;
-}
+
  }
 
  /*Medium devices (tablets, less than 992px)*/
@@ -24,13 +12,42 @@ iframe{
 .navbar-brand{
 	display: block;
 	} 
+
+.carousel-item>img{
+	height: 240px;
+	width:850px;
+}
+
+p{
+	text-align: center;
+}
+
+}
+
+
+
+ /*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+.item-slider-4 ,.item-slider-3 ,.item-slider-2 {
+	display: none;
+}
 iframe{
-	width: 500px;
+	width: 30em;
+}
+
+.carousel-item>img{
+	height: 340px;
+	width:850px;
+}
+
+ }
+
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
 }
 
 
 
-}
-
- /*Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { }
