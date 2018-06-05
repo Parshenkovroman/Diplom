@@ -9,7 +9,7 @@
 
  /*Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) { 
-.navbar-brand{
+.navbar-brand {
 	display: block;
 	} 
 
@@ -21,6 +21,16 @@
 p{
 	text-align: center;
 }
+h2,h3,h4 {
+	text-align: center;
+}
+
+.card-title{
+
+	text-align: center;
+}
+
+
 
 }
 
@@ -29,17 +39,21 @@ p{
  /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) { 
 
-.item-slider-4 ,.item-slider-3 ,.item-slider-2 {
+.item-slider-4 ,.item-slider-3 ,.item-slider-2,.img-scr2 {
 	display: none;
 }
 iframe{
 	width: 30em;
 }
 
+
+
 .carousel-item>img{
 	height: 340px;
 	width:850px;
 }
+
+
 
  }
 

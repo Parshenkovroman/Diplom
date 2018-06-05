@@ -58,13 +58,12 @@ body{
 }
 
 #screen-4{
-	
+
 
 
 }
 #screen-5{
-	background:#5e7b8e;
-	color:#eaf6ff;
+		background: url(../img/texture4.png);
 }
 
 #screen-5>.container>h3{
