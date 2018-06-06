@@ -26,8 +26,14 @@
 .header-block>h2{
 font-family: 'Bad Script', cursive;
 }
+.header-block>h1{
+font-size: 3.5em;
+}
+
 body{
 	background: url(../img/slider/bg.jpg) no-repeat;
+	
+	
 }
 
 #screen-1, #screen-2, #screen-3, #screen-4,#screen-5,#screen-6,#screen-7{
@@ -63,7 +69,7 @@ body{
 
 }
 #screen-5{
-		background: url(../img/texture4.png);
+		background: url(../img/texture5.jpg);
 }
 
 #screen-5>.container>h3{
@@ -87,7 +93,7 @@ body{
 }
 
 .navbar{
-	background: rgba(255,245,215,0.85);
+	background: rgba(255,245,215,0.95);
 }
 
 }

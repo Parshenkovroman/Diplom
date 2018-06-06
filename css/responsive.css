@@ -1,12 +1,6 @@
  /*Large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {
-
-
-
-
-
  }
-
  /*Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) { 
 .navbar-brand {
@@ -30,12 +24,7 @@ h2,h3,h4 {
 	text-align: center;
 }
 
-
-
 }
-
-
-
  /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) { 
 
@@ -45,16 +34,10 @@ h2,h3,h4 {
 iframe{
 	width: 30em;
 }
-
-
-
 .carousel-item>img{
 	height: 340px;
 	width:850px;
 }
-
-
-
  }
 
 
